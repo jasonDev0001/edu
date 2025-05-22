@@ -1,0 +1,819 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11;chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+    <style>
+        html, body {
+          overflow-x: hidden;
+        }
+      </style>
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+      
+      href="https://wsp.kbtu.kz/VAADIN/themes/r5/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="https://wsp.kbtu.kz/VAADIN/themes/r5/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://wsp.kbtu.kz/VAADIN/themes/r5/styles.css?v=7.7.13"
+    />
+    <script
+      type="text/javascript"
+      src="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset.nocache.js?1747910783050"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/webcam/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/inputmask/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/registrationcomponent/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/popupbutton/popupbutton.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/vaadin-combobox-multiselect/comboboxmultiselect.css"
+    />
+    <script src="https://wsp.kbtu.kz/VAADIN/widgetsets/kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset/6361E3004879AABD0CF74226EB3463D9.cache.js"></script>
+    <title>Офис регистратора</title>
+  </head>
+  <body scroll="auto" class="v-generated-body v-sa v-ch v-webkit v-lin">
+    <div id="ROOT-2521314" class="v-app r5 desktopui">
+      <div
+        tabindex="1"
+        class="v-ui v-scrollable"
+        style="width: 100%; height: 100%"
+      >
+        <div
+          class="v-loading-indicator first"
+          style="position: absolute; display: none"
+        ></div>
+        <div
+          class="v-verticallayout v-layout v-vertical v-widget card v-verticallayout-card v-scrollable-important v-verticallayout-v-scrollable-important v-login-content v-verticallayout-v-login-content v-has-width v-has-height"
+          style="position: absolute; width: 100vw; height: 100%"
+        >
+          <div class="v-expand" style="padding-top: 31px; height: 100%;">
+            <div
+              class="v-slot v-slot-v-panel-caption"
+              style="margin-top: -31px; height: 30px;"
+            >
+              <div
+                class="v-horizontallayout v-layout v-horizontal v-widget v-panel-caption v-horizontallayout-v-panel-caption v-has-width"
+                style="width: 100%; height: 30px"
+              >
+                <div class="v-expand" style="padding-left: 138px">
+                  <div
+                    class="v-slot v-slot-quiet v-slot-icon-only"
+                    style="margin-left: -138px"
+                  >
+                    <div
+                      tabindex="0"
+                      role="button"
+                      class="v-button v-widget quiet v-button-quiet icon-only v-button-icon-only"
+                    >
+                      <span class="v-button-wrap"
+                        ><img
+                          class="v-icon"
+                          src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/button/home.png"
+                          alt="" /><span class="v-button-caption"></span
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="v-slot v-align-middle" style="width: 98%; vertical-align: middle;">
+                    <div class="v-label v-widget v-label-undef-w" style="padding-top: 3px; padding-right: 3px;">
+                      Рабочий стол
+                    </div>
+                  </div>
+                  <div class="v-slot v-align-middle">
+                    <div
+                      class="v-horizontallayout v-layout v-horizontal v-widget"
+                    >
+                      <div class="v-slot v-slot-quiet v-slot-icon-only">
+                        <div
+                          tabindex="0"
+                          role="button"
+                          class="v-button v-widget quiet v-button-quiet icon-only v-button-icon-only"
+                          
+                        >
+                          <span class="v-button-wrap"
+                            ><img
+                              class="v-icon"
+                              src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/flags/ru.png"
+                              alt="" /><span class="v-button-caption"></span
+                          ></span>
+                        </div>
+                      </div>
+                      <div class="v-spacing"></div>
+                      <div class="v-slot v-slot-quiet v-slot-icon-only">
+                        <div
+                          tabindex="0"
+                          role="button"
+                          class="v-button v-widget quiet v-button-quiet icon-only v-button-icon-only"
+                        >
+                          <span class="v-button-wrap"
+                            ><img
+                              class="v-icon"
+                              src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/flags/kz.png"
+                              alt="" /><span class="v-button-caption"></span
+                          ></span>
+                        </div>
+                      </div>
+                      <div class="v-spacing"></div>
+                      <div class="v-slot v-slot-quiet v-slot-icon-only">
+                        <div
+                          tabindex="0"
+                          role="button"
+                          class="v-button v-widget quiet v-button-quiet icon-only v-button-icon-only"
+                        >
+                          <span class="v-button-wrap"
+                            ><img
+                              class="v-icon"
+                              src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/flags/gb.png"
+                              alt="" /><span class="v-button-caption"></span
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="v-slot" style="height: 100%">
+              <div
+                class="v-verticallayout v-layout v-vertical v-widget v-has-width v-margin-top v-margin-right v-margin-bottom v-margin-left"
+                style="width: 100%; overflow: hidden;"
+              >
+                <div class="v-slot v-align-right" style="height: 30px;">
+                  <div
+                    class="v-horizontallayout v-layout v-horizontal v-widget"
+                  >
+                    <div class="v-slot v-slot-icon-only v-slot-quiet">
+                      <div
+                        tabindex="0"
+                        role="button"
+                        class="v-button v-widget icon-only v-button-icon-only quiet v-button-quiet"
+                      >
+                        <span class="v-button-wrap"
+                          ><img
+                            class="v-icon"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/button/change_password.png"
+                            alt="" /><span class="v-button-caption"></span
+                        ></span>
+                      </div>
+                    </div>
+                    <div class="v-spacing"></div>
+                    <div class="v-slot v-slot-icon-only v-slot-quiet">
+                      <div
+                        tabindex="0"
+                        role="button"
+                        class="v-button v-widget icon-only v-button-icon-only quiet v-button-quiet"
+                      >
+                        <span class="v-button-wrap"
+                          ><img
+                            class="v-icon"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/button/delete_password.png"
+                            alt="" /><span class="v-button-caption"></span
+                        ></span>
+                      </div>
+                    </div>
+                    <div class="v-spacing"></div>
+                    <div class="v-slot v-slot-icon-only v-slot-quiet">
+                      <div
+                        tabindex="0"
+                        role="button"
+                        class="v-button v-widget icon-only v-button-icon-only quiet v-button-quiet"
+                      >
+                        <span class="v-button-wrap"
+                          ><img
+                            class="v-icon"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/button/logout_24.png"
+                            alt="" /><span class="v-button-caption"></span
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-spacing"></div>
+                <div class="v-slot v-slot-v-information-component-info">
+                  <div
+                    class="v-customcomponent v-widget v-information-component-info v-customcomponent-v-information-component-info v-has-width"
+                    style="width: 100%; height: 70px;"
+                  >
+                    <div
+                      class="v-horizontallayout v-layout v-horizontal v-widget v-has-width"
+                      style="width: 100%; height: 3px"
+                    >
+                      <div class="v-expand" style="padding-left: 42px; height: 40px; ">
+                        <div
+                          class="v-slot v-align-center v-align-middle"
+                          
+                          style="margin-left: -42px"
+                        >
+                          <img
+                            class="v-image v-widget"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/info_32.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="v-spacing"></div>
+                        <div
+                          class="v-slot v-slot-v-margin-right-5 v-align-center v-align-middle"
+                          style="width: 100%"
+                        >
+                          <div
+                            class="v-label v-widget v-margin-right-5 v-label-v-margin-right-5 v-has-width"
+                            style="width: 100%"
+                          >
+                            Уважаемые студенты/преподаватели, сейчас идет 19я
+                            учебная неделя
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-spacing"></div>
+                <div class="v-slot v-slot-v-information-component-warning">
+                  <div
+                    class="v-customcomponent v-widget v-information-component-warning v-customcomponent-v-information-component-warning v-has-width"
+                    style="width: 100%; height: 70px;"
+                  >
+                    <div
+                      class="v-horizontallayout v-layout v-horizontal v-widget v-has-width"
+                      style="width: 100%; height: 61px"
+                    >
+                      <div class="v-expand" style="padding-left: 42px">
+                        <div
+                          class="v-slot v-align-center v-align-middle"
+                          style="margin-left: -42px"
+                        >
+                          <img
+                            class="v-image v-widget"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/warning_32.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="v-spacing"></div>
+                        <div
+                          class="v-slot v-slot-v-margin-right-5 v-align-center v-align-middle"
+                          style="width: 100%"
+                        >
+                          <div
+                            class="v-label v-widget v-margin-right-5 v-label-v-margin-right-5 v-has-width"
+                            style="width: 100%"
+                          >
+                            Важная информация об отказе дисциплины (Withdrawal).
+                            <a
+                              target="_blank"
+                              href="https://wsp.kbtu.kz/VAADIN/themes/r5/help/info/indexCredit.html"
+                              >Подробнее</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-spacing"></div>
+                <div class="v-slot v-slot-v-information-component-info">
+                  <div
+                    class="v-customcomponent v-widget v-information-component-info v-customcomponent-v-information-component-info v-has-width"
+                    style="width: 100%; height: 70px;"
+                  >
+                    <div
+                      class="v-horizontallayout v-layout v-horizontal v-widget v-has-width"
+                      style="width: 100%; height: 61px"
+                    >
+                      <div class="v-expand" style="padding-left: 42px">
+                        <div
+                          class="v-slot v-align-center v-align-middle"
+                          style="margin-left: -42px"
+                        >
+                          <img
+                            class="v-image v-widget"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/info_32.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="v-spacing"></div>
+                        <div
+                          class="v-slot v-slot-v-margin-right-5 v-align-center v-align-middle"
+                          style="width: 100%"
+                        >
+                          <div
+                            class="v-label v-widget v-margin-right-5 v-label-v-margin-right-5 v-has-width"
+                            style="width: 100%"
+                          >
+                            Формирование предварительных заявок в ДМиС КБТУ.
+                            <a
+                              target="_blank"
+                              href="https://forms.office.com/Pages/ResponsePage.aspx?id=XhsIV2rmk0mOrxWwswkpP3PMM8ZQSXhKuj9Immp1VutUN1laWVhIS1QxRU4yWjhISDVDQllFS1JQQS4u"
+                              >Подробнее</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-spacing"></div>
+                <div class="v-slot v-slot-v-information-component-info">
+                  <div
+                    class="v-customcomponent v-widget v-information-component-info v-customcomponent-v-information-component-info v-has-width"
+                    style="width: 100%; height: 110px;"
+                  >
+                    <div
+                      class="v-horizontallayout v-layout v-horizontal v-widget v-has-width"
+                      style="width: 100%; height: 113px"
+                    >
+                      <div class="v-expand" style="padding-left: 42px">
+                        <div
+                          class="v-slot v-align-center v-align-middle"
+                          style="margin-left: -42px"
+                        >
+                          <img
+                            class="v-image v-widget"
+                            src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/info_32.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="v-spacing"></div>
+                        <div
+                          class="v-slot v-slot-v-margin-right-5 v-align-center v-align-middle"
+                          style="width: 100%"
+                        >
+                          <div
+                            class="v-label v-widget v-margin-right-5 v-label-v-margin-right-5 v-has-width"
+                            style="width: 100%"
+                          >
+                            Уважаемые студенты!<br />С 3 марта с 10:00ч. по 2
+                            апреля 2025 года в онлайн-формате будет проводиться
+                            <br />регистрация на дисциплины осеннего и весеннего
+                            семестров 2025-2026 учебного года.<br />Обращаем
+                            внимание, что без предварительной регистрации,
+                            формирование расписания <br />занятий будет
+                            недоступно.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-spacing"></div>
+                <div class="v-slot v-align-center">
+                  <div
+                    class="v-panel v-widget"
+                    style="
+                      overflow: hidden;
+                      padding-top: 0px;
+                      padding-bottom: 0px;
+                    "
+                  >
+                    <div class="v-panel-captionwrap" style="margin-top: 0px">
+                      <div class="v-panel-nocaption"><span></span></div>
+                    </div>
+                    <div
+                      class="v-panel-content v-scrollable"
+                      style="overflow: hidden;
+                      height: 80%;"
+                      tabindex="-1"
+                      style="position: relative"
+                    >
+                      <div
+                        class="v-horizontallayout v-layout v-horizontal v-widget v-margin-top v-margin-right v-margin-bottom v-margin-left"
+                      >
+                        <div class="v-slot v-slot-card">
+                          <div
+                            class="v-verticallayout v-layout v-vertical v-widget card v-verticallayout-card v-has-width"
+                            style="width: 300px"
+                          >
+                            <div
+                              class="v-slot v-slot-v-margin-left-5 v-slot-v-margin-top-5 v-slot-v-margin-tight-5 v-slot-v-margin-bottom-5"
+                            >
+                              <div
+                                class="v-verticallayout v-layout v-vertical v-widget v-margin-left-5 v-verticallayout-v-margin-left-5 v-margin-top-5 v-verticallayout-v-margin-top-5 v-margin-tight-5 v-verticallayout-v-margin-tight-5 v-margin-bottom-5 v-verticallayout-v-margin-bottom-5"
+                              >
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentAddDropRequest"
+                                      ><span>Add/Drop дисциплин</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentAcademicMobility"
+                                      ><span>Академическая мобильность</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/Questionnaire"
+                                      ><span>Анкетирование</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/JournalView"
+                                      ><span>Журнал обучающегося</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/JournalViewAdvisor"
+                                      ><span
+                                        >Журнал обучающегося (эдвайзер)</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/StudentRequest"
+                                      ><span>Запросы обучающегося</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/IndividualCurriculumStudent"
+                                      ><span>ИУП</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/IndividualCurriculumAdvisor"
+                                      ><span>ИУП (эдвайзер)</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/StudentInfo"
+                                      ><span
+                                        >Информация для обучающегося</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentAccrualsCabinet"
+                                      ><span
+                                        >Кабинет начислений студента</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/Stud"
+                                      ><span>Личные данные студента</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/News"
+                                      ><span>Новости</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentsAdvisor"
+                                      ><span>Обучающиеся (эдвайзер)</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/Demob"
+                                      ><span>Обходной лист</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/RegistrationOnline"
+                                      ><span>Отметка посещения занятия</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/AttestationView"
+                                      ><span>Просмотр аттестации</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/AttestationViewAdvisor"
+                                      ><span
+                                        >Просмотр аттестации (эдвайзер)</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/SubjectSchedule"
+                                      ><span>Расписание дисциплины</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentSchedule"
+                                      ><span>Расписание обучающегося</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentExamSchedule"
+                                      ><span
+                                        >Расписание экзаменов обучающегося</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/RegistrationFx"
+                                      ><span>Регистрация на FX</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/RegistrationStudent"
+                                      ><span>Регистрация на дисциплины</span></a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="v-spacing"></div>
+                        <div class="v-slot v-slot-card">
+                          <div
+                            class="v-verticallayout v-layout v-vertical v-widget card v-verticallayout-card v-has-width"
+                            style="width: 300px"
+                          >
+                            <div
+                              class="v-slot v-slot-v-margin-left-5 v-slot-v-margin-top-5 v-slot-v-margin-tight-5 v-slot-v-margin-bottom-5"
+                            >
+                              <div
+                                class="v-verticallayout v-layout v-vertical v-widget v-margin-left-5 v-verticallayout-v-margin-left-5 v-margin-top-5 v-verticallayout-v-margin-top-5 v-margin-tight-5 v-verticallayout-v-margin-tight-5 v-margin-bottom-5 v-verticallayout-v-margin-bottom-5"
+                              >
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/RegistrationStudentAdvisor"
+                                      ><span
+                                        >Регистрация на дисциплины
+                                        (эдвайзер)</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentsAdvisorFreeTime"
+                                      ><span
+                                        >Свободное время студентов
+                                        (эдвайзер)</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentSocialTranscript"
+                                      ><span>Социальный транскрипт</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/Transcript"
+                                      ><span>Транскрипт</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/TranscriptAdvisor"
+                                      ><span>Транскрипт (эдвайзер)</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a href="https://wsp.kbtu.kz/StudentFiles"
+                                      ><span>Файлы обучающегося</span></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentFinancial"
+                                      ><span
+                                        >Финансовый кабинет студента</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                                <div class="v-spacing"></div>
+                                <div class="v-slot">
+                                  <div class="v-link v-widget">
+                                    <a
+                                      href="https://wsp.kbtu.kz/StudentCheckList"
+                                      ><span>Чек-лист</span></a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="v-panel-deco" style="margin-bottom: 0px"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script
+      type="text/javascript"
+      src="https://wsp.kbtu.kz/VAADIN/vaadinBootstrap.js?v=7.7.13"
+    ></script> -->
+    <!-- <script type="text/javascript">
+      //<![CDATA[
+      if (!window.vaadin)
+        alert(
+          "Failed to load the bootstrap javascript: ./VAADIN/vaadinBootstrap.js?v=7.7.13"
+        );
+      vaadin.initApplication("ROOT-2521314", {
+        theme: "r5",
+        versionInfo: {
+          vaadinVersion: "7.7.13",
+          atmosphereVersion: "2.2.9.vaadin2",
+        },
+        widgetset:
+          "kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset",
+        widgetsetReady: true,
+        comErrMsg: {
+          caption: "Проблема со связью",
+          message:
+            "Могут быть несохраненные данные, <u>нажмите здесь</u> или кнопку ESC для продолжения.",
+          url: null,
+        },
+        authErrMsg: {
+          caption: "Проблема аутентификации",
+          message:
+            "Могут быть несохраненные данные, <u>нажмите здесь</u> или кнопку ESC для продолжения.",
+          url: null,
+        },
+        sessExpMsg: {
+          caption: "Время сеанса истекло",
+          message:
+            "Могут быть несохраненные данные, <u>нажмите здесь</u> или кнопку ESC для продолжения.",
+          url: null,
+        },
+        vaadinDir: "https://wsp.kbtu.kz/VAADIN/",
+        standalone: true,
+        heartbeatInterval: 120,
+        serviceUrl: ".",
+      });
+      //]]>
+    </script> -->
+
+    <iframe
+      src='javascript:""'
+      id="kz.kbtu.officeregistrar.portlet.admin.widgetset.OfficeregistrarWidgetset"
+      tabindex="-1"
+      style="
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border: none;
+        left: -1000px;
+        top: -1000px;
+      "
+    ></iframe>
+    <div
+      id="ROOT-2521314-overlays"
+      class="v-app r5 desktopui v-overlay-container"
+      aria-live="assertive"
+      aria-label="This content is announced automatically and does not need to be navigated into."
+      aria-relevant="additions"
+    >
+      <div
+        class="v-tooltip"
+        role="tooltip"
+        aria-live="assertive"
+        aria-relevant="additions"
+        style="
+          margin-left: 0px;
+          margin-top: 0px;
+          left: -4990px;
+          top: -4990px;
+          z-index: 20001;
+          visibility: visible;
+          position: absolute;
+          overflow: visible;
+        "
+      >
+        <div class="popupContent">
+          <div>
+            <div
+              class="v-errormessage"
+              aria-hidden="true"
+              style="display: none"
+            ></div>
+            <div class="v-tooltip-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div class="XTranslate" style="all: unset"></div>
+</html>
